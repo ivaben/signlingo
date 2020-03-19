@@ -1,1 +1,1 @@
-web: gunicorn asl:app
+web: gunicorn "asl:create_app()"
